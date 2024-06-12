@@ -1,0 +1,27 @@
+From 5f6a8976aa94bf1f6009e156887c58ca4c5658cd Mon Sep 17 00:00:00 2001
+From: Manaf Meethalavalappu Pallikunhi <quic_manafm@quicinc.com>
+Date: Tue, 30 Apr 2024 15:36:18 +0530
+Subject: [PATCH] QCLINUX: arm64: defconfig: qcom: Disable bcl for RT kernel
+
+The bcl (battery current limiting) driver is required for
+products with battery powered. Disable bcl for RT kernel
+enabled products where those are not battery powered.
+
+Change-Id: I4bb7d4dfcaaa19f4ef9fbbf75c792f915ea00a24
+Signed-off-by: Manaf Meethalavalappu Pallikunhi <quic_manafm@quicinc.com>
+---
+ arch/arm64/configs/qcom_addons.config | 1 -
+ 1 file changed, 1 deletion(-)
+
+diff --git a/arch/arm64/configs/qcom_addons.config b/arch/arm64/configs/qcom_addons.config
+index 2d3fb284306d..fb04696ea38a 100644
+--- a/arch/arm64/configs/qcom_addons.config
++++ b/arch/arm64/configs/qcom_addons.config
+@@ -33,7 +33,6 @@ CONFIG_QCOM_SOC_DEBUG=y
+ CONFIG_QCOM_WDT=y
+ CONFIG_QCOM_WDT_CORE=y
+ CONFIG_QTEE_SHM_BRIDGE=y
+-CONFIG_QTI_BCL_PMIC5=y
+ CONFIG_QTI_DEVFREQ_CDEV=m
+ CONFIG_QTI_TZ_LOG=m
+ CONFIG_REGULATOR_DEBUG_CONTROL=y
