@@ -18,7 +18,7 @@ configurations.
 
 ## Host Setup and Download the Yocto Project BSP
 
-Refer to https://github.com/quic-yocto/qcom-manifest/blob/qcom-linux-kirkstone/README.md setup the host environment and download Yocto Project BSP.
+Refer to [QCOM Linux Yocto BSP releases](https://github.com/quic-yocto/qcom-manifest/blob/qcom-linux-kirkstone/README.md) setup the host environment and download Yocto Project BSP.
 
 ```shell
 mkdir [release]
@@ -65,10 +65,10 @@ Image output path: $[release]/build-qcom-wayland/tmp-glibc/deploy/images/qcm6490
 
 ## Flash the image
 
-To flash the generated build, see the [Flash software](https://docs.qualcomm.com/bundle/resource/topics/80-70014-254/flash_images.html)
+To flash the generated build, see the [Flash software](https://docs.qualcomm.com/bundle/publicresource/topics/80-70014-254/flash_images_unregistered.html)
 
 # Reference
 
-[Standard Yocto environment](https://docs.yoctoproject.org/4.0.13/brief-yoctoprojectqs/index.html)
+[Standard Yocto environment](https://docs.yoctoproject.org/4.0.18/brief-yoctoprojectqs/index.html)
 
 [QCOM Linux Yocto BSP releases](https://github.com/quic-yocto/qcom-manifest/blob/qcom-linux-kirkstone/README.md)
