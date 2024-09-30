@@ -44,9 +44,9 @@ Note: Find the latest "meta-qcom-realtime" layer release tag names at https://gi
 
 ## Examples
 
-To download the `qcom-6.6.38-QLI.1.2-Ver.1.0_realtime-linux-1.0` release tag
+To download the `qcom-6.6.38-QLI.1.2-Ver.1.1_realtime-linux-1.0` release tag
 ```shell
-git clone https://github.com/quic-yocto/meta-qcom-realtime -b qcom-6.6.38-QLI.1.2-Ver.1.0_realtime-linux-1.0 layers/meta-qcom-realtime
+git clone https://github.com/quic-yocto/meta-qcom-realtime -b qcom-6.6.38-QLI.1.2-Ver.1.1_realtime-linux-1.0 layers/meta-qcom-realtime
 ```
 
 ## Build Realtime Linux Layer
