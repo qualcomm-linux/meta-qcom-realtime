@@ -30,7 +30,7 @@ repo sync -c -j8
 To download the qcom-6.6.38-QLI.1.2-Ver.1.1 release
 
 ```shell
-repo init -u https://github.com/quic-yocto/qcom-manifest -b qcom-linux-kirkstone -m qcom-6.6.38-QLI.1.2-Ver.1.0.xml 
+repo init -u https://github.com/quic-yocto/qcom-manifest -b qcom-linux-kirkstone -m qcom-6.6.38-QLI.1.2-Ver.1.1.xml 
 repo sync
 ```
 
