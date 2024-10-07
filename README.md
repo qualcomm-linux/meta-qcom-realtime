@@ -65,10 +65,10 @@ Image output path: $[release]/build-qcom-wayland/tmp-glibc/deploy/images/qcm6490
 
 ## Flash the image
 
-To flash the generated build, see the [Flash software](https://docs.qualcomm.com/bundle/publicresource/topics/80-70014-254/flash_images_unregistered.html)
+To flash the generated build, see the [Flash software](https://docs.qualcomm.com/bundle/publicresource/topics/80-70015-254/flash_images.html)
 
 # Reference
 
-[Standard Yocto environment](https://docs.yoctoproject.org/4.0.18/brief-yoctoprojectqs/index.html)
+[Standard Yocto environment](https://docs.yoctoproject.org/4.0.20/brief-yoctoprojectqs/index.html)
 
 [QCOM Linux Yocto BSP releases](https://github.com/quic-yocto/qcom-manifest/blob/qcom-linux-kirkstone/README.md)
