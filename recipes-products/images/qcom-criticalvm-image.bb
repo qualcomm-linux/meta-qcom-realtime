@@ -2,14 +2,14 @@ SUMMARY = "A guestVM image for edgegateway support"
 
 LICENSE = "BSD-3-Clause-Clear"
 
-inherit core-image features_check extrausers image-adbd
+inherit core-image features_check extrausers
 
 CORE_IMAGE_BASE_INSTALL += " \
     packagegroup-qcom-vm-guest \
     packagegroup-qcom-criticalvm \
 "
 
-IMAGE_FEATURES += "ssh-server-openssh splash tools-debug allow-root-login post-install-logging enable-adbd"
+IMAGE_FEATURES += "ssh-server-openssh splash tools-debug allow-root-login post-install-logging"
 
 
 REQUIRED_DISTRO_FEATURES = "pam systemd"
