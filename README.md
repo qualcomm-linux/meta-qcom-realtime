@@ -18,7 +18,7 @@ configurations.
 
 ## Host Setup and Download the Yocto Project BSP
 
-Refer to [QCOM Linux Yocto BSP releases](https://github.com/qualcomm-linux/qcom-manifest/blob/qcom-linux-kirkstone/README.md) setup the host environment and download Yocto Project BSP.
+Refer to [QCOM Linux Yocto BSP releases](https://github.com/qualcomm-linux/qcom-manifest/blob/qcom-linux-scarthgap/README.md) setup the host environment and download Yocto Project BSP.
 
 ```shell
 mkdir [release]
@@ -30,7 +30,7 @@ repo sync -c -j8
 To download the qcom-6.6.65-QLI.1.4-Ver.1.0.xml release
 
 ```shell
-repo init -u https://github.com/qualcomm-linux/qcom-manifest -b qcom-linux-kirkstone -m qcom-6.6.65-QLI.1.4-Ver.1.0.xml
+repo init -u https://github.com/qualcomm-linux/qcom-manifest -b qcom-linux-scarthgap -m qcom-6.6.65-QLI.1.4-Ver.1.0.xml
 repo sync
 ```
 
@@ -71,4 +71,4 @@ To flash the generated build, see the [Flash images](https://docs.qualcomm.com/b
 
 [Standard Yocto environment](https://docs.yoctoproject.org/4.0.22/brief-yoctoprojectqs/index.html)
 
-[QCOM Linux Yocto BSP releases](https://github.com/qualcomm-linux/qcom-manifest/blob/qcom-linux-kirkstone/README.md)
+[QCOM Linux Yocto BSP releases](https://github.com/qualcomm-linux/qcom-manifest/blob/qcom-linux-scarthgap/README.md)
