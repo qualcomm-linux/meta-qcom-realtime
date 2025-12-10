@@ -16,7 +16,7 @@ PACKAGES = ' \
 
 RDEPENDS:${PN} = "\
     packagegroup-container \
-    python3-docker-compose \
+    docker-compose \
     packagegroup-filesystem-utils \
     packagegroup-support-utils \
     packagegroup-criticalvm-utils \
@@ -25,7 +25,7 @@ RDEPENDS:${PN} = "\
 RDEPENDS:packagegroup-criticalvm-utils = "\
     mosquitto \
     paho-mqtt-cpp \
-    sqlite \
+    sqlite3 \
     rapidjson \
     dpdk \
 "
