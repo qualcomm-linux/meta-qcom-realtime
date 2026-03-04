@@ -27,10 +27,10 @@ repo init -u https://github.com/qualcomm-linux/qcom-manifest -b [branch name] -m
 repo sync -c -j8
 ```
 ## Example
-To download the qcom-6.6.116-QLI.1.7-Ver.1.1 release
+To download the qcom-6.6.119-QLI.1.8-Ver.1.0 release
 
 ```shell
-repo init -u https://github.com/qualcomm-linux/qcom-manifest -b qcom-linux-scarthgap -m qcom-6.6.116-QLI.1.7-Ver.1.1.xml
+repo init -u https://github.com/qualcomm-linux/qcom-manifest -b qcom-linux-scarthgap -m qcom-6.6.119-QLI.1.8-Ver.1.0.xml
 repo sync
 ```
 
@@ -44,9 +44,9 @@ Note: Find the latest "meta-qcom-realtime" layer release tag names at https://gi
 
 ## Examples
 
-To download the `qcom-6.6.116-QLI.1.7-Ver.1.1_realtime-linux-1.1` release tag
+To download the `qcom-6.6.119-QLI.1.8-Ver.1.0_realtime-linux-1.0` release tag
 ```shell
-git clone https://github.com/qualcomm-linux/meta-qcom-realtime -b qcom-6.6.116-QLI.1.7-Ver.1.1_realtime-linux-1.1 layers/meta-qcom-realtime
+git clone https://github.com/qualcomm-linux/meta-qcom-realtime -b qcom-6.6.119-QLI.1.8-Ver.1.0_realtime-linux-1.0 layers/meta-qcom-realtime
 ```
 
 ## Build Realtime Linux Layer
@@ -69,6 +69,6 @@ To flash the generated build, see the [Flash images](https://docs.qualcomm.com/b
 
 # Reference
 
-[Standard Yocto environment](https://docs.yoctoproject.org/4.0.22/brief-yoctoprojectqs/index.html)
+[Standard Yocto environment](https://docs.yoctoproject.org/5.0.15/brief-yoctoprojectqs/index.html)
 
 [QCOM Linux Yocto BSP releases](https://github.com/qualcomm-linux/qcom-manifest/blob/qcom-linux-scarthgap/README.md)
